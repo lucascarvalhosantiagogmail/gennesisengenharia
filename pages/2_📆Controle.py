@@ -184,6 +184,20 @@ else:
             file_name="PGRSCC.pdf",
             mime="application/pdf"
         )
+        
+        st.subheader("Download do ART")
+        art_path = path / "dataset" / "Arquivo" / "ART.pdf"
+
+        with open(art_path, "rb") as pdf_file:
+            pdf_data = pdf_file.read()
+
+        st.download_button(
+            label="Download ART",
+            data=pdf_data,
+            file_name="ART.pdf",
+            mime="application/pdf"
+        )
+
 
 
     else:
