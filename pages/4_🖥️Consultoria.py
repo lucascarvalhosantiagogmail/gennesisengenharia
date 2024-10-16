@@ -36,7 +36,7 @@ else:
 
     # TÍTULO DA PÁGINA
     st.title("CONSULTORIA")
-    st.header("Empresa: Engenharia LTDA")
+    st.header("Empresa: Gennesis Engenharia e Consultoria LTDA")
     st.logo(r"https://img1.wsimg.com/isteam/ip/0cdba6f5-2fc0-4aaf-b030-d8df637187a2/blob-46e0c21.png/:/rs=w:134,h:100,cg:true,m/cr=w:134,h:100/qt=q:100/ll")
 
     path = Path(__file__).parent.parent
